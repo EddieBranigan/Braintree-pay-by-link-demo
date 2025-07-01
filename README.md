@@ -1,6 +1,8 @@
 # Braintree pay-by-link demo
 A simple braintree server built in NodeJS with express framework and using the Braintree drop-in integration.
 
+![payment link example](https://github.com/user-attachments/assets/edcadb9d-ce30-4346-a333-7ec556ac0ad1)
+
 ## Setup instructions
 Install the packages from the package-json file by typing into terminal:
 ```
