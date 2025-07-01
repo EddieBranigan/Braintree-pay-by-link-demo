@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Link</title>
+  <link type="image/png" sizes="16x16" rel="icon" href="/favicon.png">
+  <link rel="stylesheet" href="/payment-link.css">
+  <script defer src="/payment-link.js"></script>
+  <script src ="https://js.braintreegateway.com/web/dropin/1.31.2/js/dropin.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Complete Your Payment</h1>
+    <div id="orderDetails">Loading order details...</div>
+  </div>
+  <hr>
+    <div id="dropin-wrapper">
+    <div id="dropin-container"></div>
+    <button id="submit-button">Order now</button>
+        <div id="checkout-message">
+    </div>
+  </div>
+
+</body>
+</html>

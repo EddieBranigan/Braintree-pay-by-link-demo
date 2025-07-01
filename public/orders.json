@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "dc423847-d359-4d86-abbe-0c9bbada177d",
+    "paid": true,
+    "braintree_customer_id": "57871914799",
+    "contact_info": {
+      "first_name": "Jen",
+      "last_name": "Smith",
+      "company": "Braintree",
+      "email": "jen@example.com",
+      "phone": "312.555.1234",
+      "fax": "614.555.5678",
+      "website": "www.example.com"
+    },
+    "amount_paid": "300.00",
+    "braintree_transaction_id": "6256zfn9"
+  }
+]

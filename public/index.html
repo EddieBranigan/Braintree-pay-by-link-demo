@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Request Payment Link</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="index.css">
+  <script defer src="index.js"></script>
+</head>
+<body>
+
+
+  <h2>Request Payment Link</h2>
+
+  <form id="paymentForm">
+    <label for="first_name">First Name</label>
+    <input type="text" id="first_name" name="first_name" value="Jen">
+
+    <label for="last_name">Last Name</label>
+    <input type="text" id="last_name" name="last_name" value="Smith">
+
+    <label for="amount_due">Amount due</label>
+    <input type="text" id="amount_due" name="amount_due" value="200.00">
+
+    <label for="company">Company</label>
+    <input type="text" id="company" name="company" value="Braintree">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" value="jen@example.com">
+
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" name="phone" value="312.555.1234">
+
+    <label for="fax">Fax</label>
+    <input type="text" id="fax" name="fax" value="614.555.5678">
+
+    <label for="website">Website</label>
+    <input type="text" id="website" name="website" value="www.example.com">
+
+    <button type="submit">Request Payment Link</button>
+  </form>
+
+<div id="emailModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModal">&times;</span>
+    
+    <div class="email-body">
+      <p><strong>From:</strong> billing@company.com</p>
+      <p><strong>To:</strong> jen@example.com</p>
+      <p><strong>Subject:</strong> Your Payment Request</p>
+      <hr>
+
+      <p>Hi Jen,</p>
+
+      <p>Thank you for doing business with us. To complete your payment, please click the secure link below:</p>
+
+      <p class="pay-button-container">
+        <a href="#" target="_blank" class="pay-link">Pay Now</a>
+      </p>
+
+      <p>If you have any questions, feel free to reply to this email or contact our support team.</p>
+
+      <p>Best regards,<br>Billing Team</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
