@@ -12,7 +12,7 @@ Make sure to create a .env file with your gateway credentials in it. An example 
 ## Start the server
 Start the server by typing into terminal:
 ```
-node app.js
+node server.js
 ```
 
 ## Testing
