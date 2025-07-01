@@ -27,7 +27,7 @@ When testing card verifications and transactions, keep in mind:
 - Verification success is determined by the test card number you use. For example, when testing Vault and recurring billing scenarios.
 
 ## Payment flow
-First, visit the index page at http://localhost:8000 and click the button to generate a payment link. Click the link to be redirected with the payment link to make a purchase. After completing your transaction you should see a summary of your order. You can also navigate to //localhost:8000.order-management.html to see initialised as well as completed orders.
+First, visit the index page at http://localhost:8000 and click the button to generate a payment link. Click the link to be redirected with the payment link to make a purchase. After completing your transaction you should see a summary of your order. You can also navigate to //localhost:8000/order-management.html to see initialised as well as completed orders.
 
 ## Disclaimer
 This repository is for illustrative purposes only and shouldn't be used directly in a live environment.
